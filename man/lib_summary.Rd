@@ -4,7 +4,10 @@
 \alias{lib_summary}
 \title{R Library Summary}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
+}
+\arguments{
+\item{sizes}{a boolean value indicating whether to report the total filesize}
 }
 \value{
 A data.frame containing the count of packages in each of your libraries
