@@ -4,6 +4,8 @@
 # libminer2
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/BonnieJRobert/libminer2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/BonnieJRobert/libminer2/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer2 is to …
@@ -28,7 +30,7 @@ library(libminer2)
 lib_summary()
 #>                                                                                        library
 #> 1                               /Library/Frameworks/R.framework/Versions/4.2/Resources/library
-#> 2 /private/var/folders/2r/6k49zt2d4v136mzprwlcmymh0000gn/T/RtmpPPTsIP/temp_libpath7b7f4671ce50
+#> 2 /private/var/folders/2r/6k49zt2d4v136mzprwlcmymh0000gn/T/RtmpPPTsIP/temp_libpath7b7f360b1bae
 #>   n_packages
 #> 1        413
 #> 2          1
@@ -37,8 +39,8 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                        library
 #> 1                               /Library/Frameworks/R.framework/Versions/4.2/Resources/library
-#> 2 /private/var/folders/2r/6k49zt2d4v136mzprwlcmymh0000gn/T/RtmpPPTsIP/temp_libpath7b7f4671ce50
+#> 2 /private/var/folders/2r/6k49zt2d4v136mzprwlcmymh0000gn/T/RtmpPPTsIP/temp_libpath7b7f360b1bae
 #>   n_packages   lib_size
 #> 1        413 1976176352
-#> 2          1      14421
+#> 2          1      14416
 ```
